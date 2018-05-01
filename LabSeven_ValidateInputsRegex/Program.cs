@@ -10,7 +10,7 @@ namespace LabSeven_ValidateInputsRegex
             //Establish variable Name
             string Name = "";
 
-            //Create while loop to ensure name in the correct format is recieved
+            //Create while loop to ensure name in the correct format is received
             while (true)
             {
                 //Ask user to input a name
@@ -109,7 +109,7 @@ namespace LabSeven_ValidateInputsRegex
 
         static bool IsEmail(string Email)
         {
-            return Regex.IsMatch(Email, "[\\w\\.]{1,}@[\\w.]{1,}.\\w{2,}");
+            return Regex.IsMatch(Email, "[\\w\\.]{5,30}@[\\w.]{5,10}.\\w{2,3}");
         }
 
         static bool IsNum(string Number)
@@ -119,7 +119,7 @@ namespace LabSeven_ValidateInputsRegex
 
         static bool IsDate(string Date)
         {
-            return Regex.IsMatch(Date, "\\d{2}\\/\\d{2}\\/\\d{4}");
+            return Regex.IsMatch(Date, "^\\d{1,2}\\/\\d{1,2}\\/\\d{2,4}");
         }
     }
 }

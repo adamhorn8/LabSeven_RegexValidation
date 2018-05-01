@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{36CE638B-A97D-49F8-BEEF-2DD602322F97}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LabSeven_ValidateInputsRegex/Program.cs">
+    <Files>
+      <File FileName="LabSeven_ValidateInputsRegex/Program.cs" Line="36" Column="17" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.LabSeven__ValidateInputsRegex PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
